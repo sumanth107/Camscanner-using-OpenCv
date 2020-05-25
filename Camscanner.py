@@ -1,3 +1,4 @@
+#@uthor : Sumanth Nethi
 import cv2 as cv
 img = cv.imread('sample.jpeg',0)
 thresh = cv.adaptiveThreshold(img,255,cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 11, 20)
